@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef> <!-- 配方信息 -->
+    <defName>Make_SV_Fabric</defName> <!-- 配方名称 -->
+    <label>Make Starfox Fabric</label> <!-- 配方显示名称 -->
+    <description>Make Starfox Fabric</description> <!-- 配方描述 -->
+    <jobString>Making Starfox Fabric</jobString> <!-- 工作状态描述 -->
+    <workAmount>11290</workAmount> <!-- 工作量 -->
+    <workSkill>Crafting</workSkill> <!-- 工作所需技能-手工 -->
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat> <!-- 受影响的工作类型 -->
+    <recipeUsers> <!-- 配方加工点 -->
+      <li>FabricationBench</li> <!-- 精密装配台 -->
+      <li>TableMachining</li> <!-- 机械加工台 -->
+      <li>ElectricTailoringBench</li> <!-- 电力裁缝台 -->
+      <li>HandTailoringBench</li> <!-- 裁缝台 -->
+      <li>CraftingSpot</li> <!-- 手工加工点 -->
+     </recipeUsers>
+    <researchPrerequisite>SV_Fabric_Recipe</researchPrerequisite> <!-- 配方所需的研究选项 -->
+    <ingredients> <!-- 配方所需材料 -->
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products> <!-- 配方产出 -->
+      <SV_Fabric>300</SV_Fabric> <!-- 产出星狐织物 -->
+    </products>
+    <skillRequirements> <!-- 技能等级需求 -->
+      <Crafting>12</Crafting> <!-- 手工 -->
+      <Intellectual>4</Intellectual> <!-- 智识 -->
+    </skillRequirements>
+    <displayPriority>40</displayPriority><!-- 显示优先级，数字越小越靠前 -->
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ExtractPlasticFromWastepack</defName>
+    <label>extract plastic from wastepacks</label>
+    <description>Manually sorting wastepacks. This primitive and dangerous method allows usable plastic fabric to be extracted. It is an extremely time-consuming and tedious task.</description>
+    <jobString>Sorting wastepacks.</jobString>
+    <workAmount>30000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+    <researchPrerequisite>WastepackAtomizer</researchPrerequisite>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wastepack</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Plasticfabric>20</Plasticfabric>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+  </RecipeDef>
+
+</Defs>
