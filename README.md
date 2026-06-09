@@ -1,3 +1,6 @@
+###环世界模组 星狐扩展StarVuplesExtention
+steam页面: https://steamcommunity.com/sharedfiles/filedetails/?id=3711652575
+ 
  2026.05.10 v1.6.6
  新增了1把可制造枪械HK416C，有品质区别但没有艺术描述，贴图来源于《逃离塔科夫》游戏内截图。
  调整了HKUMP45的数值。
