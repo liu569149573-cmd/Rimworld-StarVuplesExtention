@@ -1,4 +1,5 @@
-###环世界模组 星狐扩展StarVuplesExtention
+环世界模组 星狐扩展StarVuplesExtention
+
 steam页面: https://steamcommunity.com/sharedfiles/filedetails/?id=3711652575
  
  2026.05.10 v1.6.6
