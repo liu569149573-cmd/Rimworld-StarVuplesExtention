@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ThrumboWool.label>敲击兽毛</ThrumboWool.label>
+  <ThrumboWool.description>只在驯养条件下才能收获的高品质敲击兽毛，远超自身皮革的性能使其不易加工。尽管如此，它奢侈且耐用的特性依旧是制作高级工艺品的第一选择。实际上，敲击兽并不能产出如此优异的织物，但炒饭智能选择暂时让敲击兽来产出这种材料。</ThrumboWool.description>
+  <ThrumboWool.stuffProps.stuffAdjective>敲击兽毛</ThrumboWool.stuffProps.stuffAdjective>
+
+</LanguageData>
